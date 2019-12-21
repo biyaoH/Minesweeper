@@ -1,0 +1,105 @@
+body {
+  background-color: lightblue;
+}
+
+#minesweeper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+#game-ground {
+  width: 320px;
+  height: 400px;
+  background-color: rgb(214, 214, 214);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 5px solid darkgrey;
+  border-bottom: 5px solid darkgrey;
+  border-top: 5px solid rgb(241, 241, 241);
+  border-left: 5px solid rgb(241, 241, 241);
+}
+
+#game-table {
+  width: 300px;
+  height: 300px;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  border-top: 5px solid darkgrey;
+  border-left: 5px solid darkgrey;
+}
+
+#game-head {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#timer {
+  color: red;
+  width: 60px;
+  height: 30px;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid darkgrey;
+  border-bottom: 2px solid darkgrey;
+  border-top: 2px solid darkgrey;
+  border-left: 2px solid darkgrey;
+
+}
+.fa-smile {
+  background-color: yellow;
+}
+
+#flag-number {
+  color: red;
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digged-true{
+  background-color: rgb(192, 192, 192);
+}
+#grid-mine {
+  width: 30px;
+  height: 30px;
+  
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.digged-false {
+  background-color: rgb(212, 212, 212);
+border-right: 2px solid darkgrey;
+  border-bottom: 2px solid darkgrey;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
